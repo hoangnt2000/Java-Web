@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context path="/Assignment_HoangNT_FA22">
+  <Resource auth="Container" driverClassName="com.microsoft.sqlserver.jdbc.SQLServerDriver" 
+            name="HoangNT_FA22" type="javax.sql.DataSource" 
+            url="jdbc:sqlserver://localhost:1433;databaseName=Assignment_HoangNT_FA22" 
+            username="sa" password="12345"/>
+</Context>

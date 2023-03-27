@@ -1,0 +1,100 @@
+/* Bootstrap css */
+@import "https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css";
+
+/* Google Material icons */
+@import "http://fonts.googleapis.com/icon?family=Material+Icons";
+
+/* Propeller css */
+@import "dist/css/propeller.min.css";
+
+/* Bootstrap datetimepicker */
+@import "datetimepicker/css/bootstrap-datetimepicker.css";
+
+/* Propeller datetimepicker */
+@import "datetimepicker/css/pmd-datetimepicker.css";
+    html,
+    body,
+    header,
+    .carousel {
+      height: 60vh;
+    }
+
+    @media (max-width: 740px) {
+      html,
+      body,
+      header,
+      .carousel {
+        height: 100vh;
+      }
+    }
+
+    @media (min-width: 800px) and (max-width: 850px) {
+      html,
+      body,
+      header,
+      .carousel {
+        height: 100vh;
+      }
+    }
+    .disabled{
+    pointer-events:none
+    }
+    input:invalid {
+        border: red solid 3px;
+    }
+    div.container.active{
+        padding-left: 0px;
+        margin-left: 20px;
+    }
+    div.container{
+        padding-left: 250px;
+        margin-bottom: 50px; 
+    }
+    div.col{
+        margin-top: 12px;
+    }
+    div.row{
+        margin: 0px;
+        height: 75px;
+    }
+    .justify-content-center{
+        margin-left: 175px; 
+    }
+    div.card{
+        width: 200px;
+        height: 450px;
+    }
+    p.card-text.show_txt{
+       height: 50px;
+       margin: 0px
+    }
+    font.show_txt{
+        padding-left: 0px;
+        margin-left: 0px; 
+    }
+    /* The alert message box */
+.alert {
+  padding: 20px;
+  background-color: #f44336; /* Red */
+  color: white;
+  margin-bottom: 15px;
+}
+
+/* The close button */
+.closebtn {
+  margin-left: 15px;
+  color: white;
+  font-weight: bold;
+  float: right;
+  font-size: 22px;
+  line-height: 20px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+/* When moving the mouse over the close button */
+.closebtn:hover {
+  color: black;
+}
+
+.view,body,html{height:100%}.carousel{height:50%}.carousel .carousel-inner,.carousel .carousel-inner .active,.carousel .carousel-inner .carousel-item{height:100%}@media (max-width:776px){.carousel{height:100%}}.page-footer{background-color:#929FBA}
